@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+} */
+
+
+ /* span{
+    position: absolute;
+    
+}  */
+.secondEmb{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+    height: 5rem;
+}
+.card{ 
+    position: absolute;
+    top: 0rem;
+    right: 5rem;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    
+} 
+#zero{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    height: 1rem;
+    width: 1rem;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+/* .img{
+    position: absolute;
+    height: 30px;
+    width: 25px;
+} */
+
+.globalContener{
+    /* display: flex;  */
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: beige; */
+    height: 60rem;
+    width: 65rem;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.grandEmballeur{
+    /* display: flex; */
+    position: relative;
+    height: 55rem;
+    flex-direction: column;
+    background-color: beige;
+    width: 85vw;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 10px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.contener1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 22rem;
+   
+}
+.elemL1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    height: 20rem;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 12rem;
+    width: 12rem;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50%;
+}
+
+.emballeur{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: 135px; */
+    align-items: center;
+}
+.panier{
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+    justify-content: center;
+}
+.contener2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    height: 22rem;
+}
